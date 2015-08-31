@@ -630,7 +630,7 @@ angular.module('gridshore.c3js.chart', [])
             }
             var extent=attrs.axisExtent;
             if (extent) {
-                axis.extent=extent;    
+                axis.extent=extent.split(',');
             }
             
             chartCtrl.addAxisProperties('x', axis);
