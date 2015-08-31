@@ -111,6 +111,10 @@ function ChartAxisX() {
         if (extent) {
             axis.extent = extent;
         }
+        var extent=attrs.axisExtent;
+        if (extent) {
+            axis.extent=extent;    
+        }
         chartCtrl.addAxisProperties('x', axis);
     };
 
