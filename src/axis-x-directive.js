@@ -101,7 +101,7 @@ function ChartAxisX () {
         }
         var extent=attrs.axisExtent;
         if (extent) {
-            axis.extent=extent;   
+            axis.extent=extent;    
         }
         chartCtrl.addAxisProperties('x', axis);
     };
