@@ -99,6 +99,10 @@ function ChartAxisX () {
         if (type) {
             axis.type=type;   
         }
+        var extent=attrs.axisExtent;
+        if (extent) {
+            axis.extent=extent;   
+        }
         chartCtrl.addAxisProperties('x', axis);
     };
 
